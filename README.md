@@ -97,6 +97,7 @@ For development, the following additional packages are used:
 - `pydevd-pycharm ~= 202.8194.22`
 
 ### Testing
+
 You can test the entry points using 'Curl' once app.py is up and running.
 
 Sample syntax to retrieve city information from 'cities.db'
@@ -123,6 +124,21 @@ Sample syntax to search for a city by name
 ```
 curl "http://127.0.0.1:5000/search?q=Tokyo"
 ```
+
+### ToDo:
+
+Given more time, I would extend this api to:
+
+1.	Introduce appropriate logging throughout the codebase to capture important events and debugging information.
+2.	Create comprehensive unit tests for individual functions and methods.
+3.	Design and execute integration tests to verify the interactions between different modules and components.
+4.	Package the entire application, along with its dependencies, into a Docker image.
+5.	Implement SOLID principles (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation,
+    Dependency Inversion) to enhance code maintainability and scalability.
+6.	Set up Jenkins to automate the CI/CD pipeline for building, testing, and deploying code.
+7.	Integrate Trivy into the CI/CD pipeline to automatically scan container images for CVEs and ensure
+    security compliance.
+8.	Utilize GitHub Actions to enforce PEP8 standards for Python code, ensuring consistent code style.
 
 ### Contributing
 
