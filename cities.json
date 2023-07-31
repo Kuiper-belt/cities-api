@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Paris",
+    "country": "France"
+  },
+  {
+    "name": "Sydney",
+    "country": "Australia"
+  },
+  {
+    "name": "Rome",
+    "country": "Italy"
+  },
+  {
+    "name": "Cairo",
+    "country": "Egypt"
+  },
+  {
+    "name": "Beijing",
+    "country": "China"
+  },
+  {
+    "name": "Rio de Janeiro",
+    "country": "Brazil"
+  },
+  {
+    "name": "Cape Town",
+    "country": "South Africa"
+  },
+  {
+    "name": "Moscow",
+    "country": "Russia"
+  },
+  {
+    "name": "Dubai",
+    "country": "United Arab Emirates"
+  },
+  {
+    "name": "Toronto",
+    "country": "Canada"
+  }
+]
+

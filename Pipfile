@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = '*'
+requests = '*'
+flask-sqlalchemy = '*'
+
+[dev-packages]
+coverage = '~=4.5'
+mypy = '~=0.8'
+pylint = '~=2.6'
+ptvsd = '~=4.3'
+pydevd-pycharm = '~=202.8194.22'
+
+[requires]
+python_version = "3.9"
